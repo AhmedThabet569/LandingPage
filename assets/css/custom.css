@@ -1,0 +1,252 @@
+body{
+    direction: rtl;
+    font-family: 'nemo';
+}
+@font-face {
+    font-family: 'nemo';
+    src: url('../fonts/alfont_com_AlFont_com_Neo-Sans-W23.ttf');
+}
+@font-face{
+    font-family: 'aref';
+    src: url(../fonts/ArbFONTS-aref-bold.ttf);
+}
+#header #logo {
+    float: right;
+}
+.nav-menu>li {
+    margin-right: 10px;
+}
+
+.nav-menu>li {
+    float: right;
+}
+.social-media li{
+    float:right;
+    margin: 0px 10px;
+}
+.social-media li a i 
+{
+    color:#000;
+}
+
+#header a {
+  color: #000;
+  font-size: 15px;
+  font-we: b;
+  font-weight: 700;
+}
+#hero .btn-get-started, .btn-get-started {
+  font-family: 'nemo';
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 35px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid transparent;
+  color: #fff;
+  margin: 100px 0px;
+  background: #000;
+  color: #FFB800;
+}
+#hero .section-header
+{
+    position: relative;
+    top: 150px;
+}
+a:hover
+{
+    background: unset;
+    background-color: unset;
+    border-color: transparent;
+}
+#hero {
+    width: 100%;
+    height: 130vh;
+    background: url(../img/headerbackground.jpg) top center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#hero img
+{
+  width: 50%;
+}
+#hero button {
+      border-radius: 10px;
+    background: #000;
+    border-color: transparent;
+    color: #ffb900;
+    margin: 50px 0px;
+}
+#logo img 
+{
+    position: relative;
+    bottom: 10px;
+    float: none;
+    text-align: center;
+    margin: auto;
+}
+#header.header-fixed a ,#header.header-fixed a  i
+{
+    color: #fff;
+}
+.nav-menu > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f8b906;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+#facts 
+{  width: 100%;
+  background: url(../img/menubg.png) top center;
+  background-size: cover;
+  position: relative;
+
+}
+#facts .section-header ,#contact .section-header,
+#about .section-header
+{
+        display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#facts .section-header img
+{
+        display: block;
+    text-align: center;
+    margin: auto;
+}
+#facts a 
+{
+        border-radius: 10px;
+    border-color: transparent;
+    background: #f6b806;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: unset;
+}
+#mobile-nav-toggle {
+    position: fixed;
+    left: 0;
+    right: unset;
+    top: -7px;
+}
+#mobile-nav-toggle i {
+    color: #e4aa05;
+}
+
+#services
+{
+     width: 100%;
+  background: url(../img/our-brances.png) top center;
+  background-size: cover;
+  height: 180vh;
+  position: relative;
+}
+@media(min-width: 992px){
+    .hide-lg,.hide-md
+    {
+        display: none;
+    }
+}
+@media(max-width: 991px)
+{
+    .hide-sm
+    {
+        display: none;
+    }
+}
+
+#about {
+  width: 100%;
+  background: url(../img/viedobg.png) top center;
+  background-size: contain;
+  height: 150vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+#facts{
+    padding: 40px 0px 30px;
+}
+#services {
+   margin: auto;
+   text-align: center;
+}
+#services .title {
+  font-family: 'aref';
+  font-size: 33px;
+  color: #000;
+}
+#services .brnach-icon
+{
+    max-width: 250px;
+}
+#services .box {
+    padding: 50px 20px;
+    margin: 40px 0px;
+    text-align: center;
+     border: unset; 
+
+    height: 200px;
+    position: relative;
+     background:unset; 
+}
+#services .brnach-icon 
+{
+    margin: auto;
+    text-align: center;
+}
+#services .brnach-icon img{
+  max-width: 120px;
+  margin: auto;
+  text-align: center;
+}
+#services ul {
+    display: inline-block;
+}
+#services ul li {
+    float: right;
+    padding: 0px 15px;
+    color: #000;
+}
+#contact {
+  background: #fff;
+  padding: 30px 0 20px 0;
+  margin: 30px 0px;
+}
+#contact .php-email-form input, #contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #000;
+  font-size: 14px;
+  text-align: right;
+}
+::placeholder{
+    color: #e6e6e6 !important;
+}
+#contact .php-email-form button[type="submit"] {
+  background: #F7B70D;
+  border: 0;
+  padding: 5px 37px;
+  color: #000;
+  transition: 0.4s;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#footer {
+  background: #fff;
+  padding: 30px 0;
+  color: #000;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+}
